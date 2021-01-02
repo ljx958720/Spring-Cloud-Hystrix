@@ -19,8 +19,8 @@ spring:
           force-pull: true #强制从远程GIT仓库拉取数据到本地
           search-paths: /**  #配置文件所在的目录
           #default-label: master
-          username: ljx958720
-          password: 13545784320ljx
+          username: ***
+          password: ***
 #下面是Spring Cloud Bus总线配置
 #配置消息总线BUS;开放一个外部端口，用来刷新缓存
 #如果git信息更改我们可以通过访问http://localhost:9091/actuator/bus-refresh 进行广播更新，但是这种广播要手动操作，可以在git上的webhooks进行配置自动
